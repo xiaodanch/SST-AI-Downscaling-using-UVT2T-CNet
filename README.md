@@ -22,7 +22,9 @@ SST-AI-Downscaling-using-UVT2T-CNet/
 ├── GeoLAM/
 │   ├── __init__.py
 │   └── geolam.ipynb        
-├── predata_clm.py           
+├── predata/
+│   ├── predata_clm.py
+│   └── preprocess.py       
 ├── src/
 │   ├── train.py             
 │   └── utils.py                         
@@ -69,6 +71,7 @@ If you find this code or research helpful, please cite our paper:
   doi={10.1088/2632-2153/ae3054}
 }
 ```
+
 
 
 
