@@ -12,6 +12,8 @@ This study proposes a multi-mode AI downscaling approach (UVT2T-CNet) to reconst
 
 Please note that this repository will be actively updated and refined over the coming period.
 
+PS:The author has been quite busy lately, so updates might be slightly delayed. Thanks for your understanding!
+
 ```Plaintext
 SST-AI-Downscaling-using-UVT2T-CNet/
 ├── models/
@@ -67,6 +69,7 @@ If you find this code or research helpful, please cite our paper:
   doi={10.1088/2632-2153/ae3054}
 }
 ```
+
 
 
 
