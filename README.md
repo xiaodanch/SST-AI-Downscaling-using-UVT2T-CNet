@@ -61,6 +61,15 @@ pages = {015003},
 }
 ```
 
+## Acknowledgments
+
+```
+This project builds upon the following open-source repositories:
+* https://github.com/Jongchan/attention-module.git
+* https://github.com/X-Lowlevel-Vision/LAM_Demo.git
+* https://github.com/JingyunLiang/SwinIR.git
+* https://github.com/isl-org/MultiObjectiveOptimization.git
+```
 
 
 
