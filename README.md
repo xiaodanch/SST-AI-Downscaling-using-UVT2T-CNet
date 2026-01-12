@@ -9,10 +9,6 @@ This repository contains the source code and implementation for the paper:
 This study proposes a multi-mode AI downscaling approach (UVT2T-CNet) to reconstruct high-resolution (HR) sea surface temperature (SST) fields in coastal regions. The model is trained on realistic LR-HR data pairs from nested ROMS simulations to bridge the "simulated-to-real" gap. By incorporating sea surface currents (U, V) as auxiliary physical inputs, the model effectively learns the underlying dynamical processes, such as temperature advection.
 
 ## Repository Content
-
-Please note that this repository will be actively updated and refined over the coming period.
-PS:The author has been quite busy lately, so updates might be slightly delayed. Thanks for your understanding!
-
 ```Plaintext
 SST-AI-Downscaling-using-UVT2T-CNet/
 ├── models/
@@ -64,6 +60,7 @@ number = {1},
 pages = {015003},
 }
 ```
+
 
 
 
