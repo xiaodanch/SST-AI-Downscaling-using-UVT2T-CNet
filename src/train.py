@@ -11,7 +11,7 @@ from functools import partial
 import numpy as np
 
 import utils
-sys.path.append('models')
+sys.path.append('../models')
 from cbam_unet import net
 from dataset import get_processed_dataset, get_dataloader
 from min_norm_solvers import MinNormSolver, gradient_normalizers
