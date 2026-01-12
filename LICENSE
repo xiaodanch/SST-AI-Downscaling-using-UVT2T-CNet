@@ -21,4 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 This project incorporates material from the following sources:
-
+* https://github.com/Jongchan/attention-module.git
+* https://github.com/X-Lowlevel-Vision/LAM_Demo.git
+* https://github.com/JingyunLiang/SwinIR.git
+* https://github.com/isl-org/MultiObjectiveOptimization.git
