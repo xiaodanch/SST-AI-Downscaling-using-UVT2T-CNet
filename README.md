@@ -17,61 +17,54 @@ PS:The author has been quite busy lately, so updates might be slightly delayed. 
 SST-AI-Downscaling-using-UVT2T-CNet/
 ├── models/
 │   ├── __init__.py
+│   ├── cbam.py
 │   ├── unet.py
+│   ├── cbam_unet.py
 │   ├── cbam_unet.py
 │   └── swinir.py      
 ├── GeoLAM/
-│   ├── __init__.py
-│   └── geolam.ipynb        
+│   └── lam_unet.ipynb        
 ├── predata/
 │   ├── predata_clm.py
 │   └── preprocess.py       
 ├── src/
-│   ├── train.py             
+│   ├── train.py
+│   ├── min_norm_solvers.py
+│   ├── srloss.py                      
 │   └── utils.py                         
-├── README.md             
-└── requirements.txt      
+├── README.md               
 ```
 
 ## Key Results
 
-* 
-**Performance**: Reduced RMSE by 21.93% compared to bilinear interpolation and achieved a spatial correlation (R) of 0.86.
+* **Performance**: Reduced RMSE by 21.93% compared to bilinear interpolation and achieved a spatial correlation (R) of 0.86.
 
 
-* 
-**Physical Consistency**: GeoLAM analysis confirms that the model correctly learns temperature advection transport in shaping SST patterns.
+* **Physical Consistency**: GeoLAM analysis confirms that the model correctly learns temperature advection transport in shaping SST patterns.
 
 
 * **Efficiency**: Achieving orders-of-magnitude faster speed than nested numerical modeling.
-
-## Installation & Usage
-
-1. Clone the repository:
-```bash
-git clone https://github.com/xiaodanch/SST-AI-Downscaling-using-UVT2T-CNet.git
-```
-
-
-2. Prepare the data using `predata.py`.
-3. Start training:
-```bash
-python train.py
-```
 
 ## Citation
 
 If you find this code or research helpful, please cite our paper:
 
 ```bibtex
-@article{Chen2025SST,
-  title={High-resolution regional SST AI downscaling based on multi-mode inputs from nested ROMS simulations},
-  author={Xiaodan Chen and Fei Zheng and Jiangjiang Xia and Jiang Zhu and Yeqiang Shu and Danian Liu},
-  journal={Machine Learning: Science and Technology},
-  year={2025},
-  doi={10.1088/2632-2153/ae3054}
+@article{Chen_2026,
+author = {Chen, Xiaodan and Zheng, Fei and Xia, Jiangjiang and Zhu, Jiang and Shu, Yeqiang and Liu, Danian},
+title = {High-resolution regional SST AI downscaling based on multi-mode inputs from nested ROMS simulations},
+journal = {Machine Learning: Science and Technology},
+doi = {10.1088/2632-2153/ae3054},
+url = {https://doi.org/10.1088/2632-2153/ae3054},
+year = {2026},
+month = {jan},
+publisher = {IOP Publishing},
+volume = {7},
+number = {1},
+pages = {015003},
 }
 ```
+
 
 
 
