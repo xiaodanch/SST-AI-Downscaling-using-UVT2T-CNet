@@ -81,7 +81,7 @@ class net(nn.Module):
 
         self.start = nn.Sequential(
             DoubleConv(in_channel, channels[0], self.dropout, self.activate_method),
-            CBAM(gate_channels=channels[0], reduction_ratio=16, pool_types=['max', 'lse']), # CBAM attention module
+            CBAM(gate_channels=channels[0], reduction_ratio=2, pool_types=['max', 'lse']), # CBAM attention module
         )    
 
         self.down1 = nn.Sequential(                         #------3x: 0.5km -> 1.5km                          
@@ -163,4 +163,5 @@ def test():
 
 if __name__ == "__main__":
     test()
+
 
